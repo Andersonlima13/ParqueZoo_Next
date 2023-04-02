@@ -1,0 +1,19 @@
+*{
+ margin : 0;
+}
+
+.navbar {
+    background-color: gray;
+    height : 10vh;
+}
+
+.top {
+    list-style: none;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zoo {
+    font-size : 40px;
+}
