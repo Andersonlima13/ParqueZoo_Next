@@ -1,36 +1,60 @@
 *{
- margin : 0;
- @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
- font-family: 'Ubuntu', sans-serif;
- font-family: 'Ubuntu Mono', monospace;;
+    margin : 0;
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;;
+   }
+   
+   .navbar {
+       background-color: rgb(233, 240, 236);
+       height : 40px;
+       color : rgb(0, 0, 0);
+   }
+   
+   .top {
+       margin-right : 30px;
+       font-size : 18px;
+       list-style: none;
+       display : flex;
+       align-items: center;
+       justify-content: space-between;
+       font-weight: bold;
+   }
+   
+   .zoo {
+        padding-left: 10px;
+       font-size : 30px;
+       font-weight: bold;
+       
+   }
+   
+   .Home {
+       padding-left: 10%; 
+       padding-top: 15%;  
+       display:flex;
+       flex-direction: column;
+       width: 100%;
+       height:100vh;
+       background-color : rgb(187, 223, 170) ;
+   
+   }
+
+
+.News {
+    font-size: 60px;;
 }
 
-.navbar {
-    background-color: rgb(20, 168, 86);
-    height : 40px;
-    color : white;
+.Name{
+    font-weight: bold;
+
 }
 
-.top {
-    margin-right : 30px;
-    font-size : 20px;
-    list-style: none;
-    display : flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.zoo {
-    font-size : 30px;
-    
-}
-
-.Home {
-    justify-content: center;
-    align-items:center;
-    display:flex;
-    width: 100%;
-    height:100vh;
-    background-color : rgb(152, 94, 94) ;
-
+.button {
+    width: 200px;
+    height: 60px;
+    margin-top: 35px;
+    background-color: rgb(101, 180, 101);
+    font-size: 30px;
+    color:white;
+    cursor:pointer;
 }

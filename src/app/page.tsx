@@ -4,24 +4,26 @@ import "../Css/style.css"
 
 export default function Home() {
   return (
-    <div >
-   
-      <div className = "navbar">
+    <div>
+      <div class = "navbar">
      
-        <ul className = "top">
-          <li className = "zoo">zoologico</li>
-          <li>Inicio</li>
-          <li>Funcionarios</li>
-          <li>Animais</li>
-        </ul>
+     <ul class = "top">
+       <li class = "zoo">zoologico</li>
+       <li>Inicio</li>
+       <li>Funcionarios</li>
+       <li>Animais</li>
+     </ul>
 
-        
-         </div>
+     
+      </div>
 
-         <div className="Home"> 
-         <h1 className="News">Conheça ja!</h1>
-         </div>
-         
+      <div class="Home"> 
+      <h1 class="News">PRINCIPAL SERVIÇO AQUI</h1>
+      <p class="Name"> Paragrafo destacado aqui ivamus scelerisque sit amet nulla vel porta. Fusce gravida euismod leo vitae facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent posuere</p>
+      <button class="button"> ver mais </button>
+     </div>
+   
+      
 
 
      
