@@ -10,10 +10,14 @@ export default function Home() {
      
         <ul className = "top">
           <li className = "zoo">zoologico</li>
-          <li>b</li>
-          <li>c</li>
-          <li>d</li>
-        </ul> </div>
+          <li>Inicio</li>
+          <li>Funcionarios</li>
+          <li>Animais</li>
+        </ul>
+         </div>
+         <div> Conheça ja!</div>
+
+
      
       <Link href="/dashboard"> dash link</Link>
     </div>

@@ -3,11 +3,14 @@
 }
 
 .navbar {
-    background-color: gray;
+    background-color: rgb(20, 168, 86);
     height : 10vh;
+    color : white;
 }
 
 .top {
+    margin-right : 30px;
+    font-size : 30px;
     list-style: none;
     display : flex;
     align-items: center;
@@ -16,4 +19,5 @@
 
 .zoo {
     font-size : 40px;
+    
 }
