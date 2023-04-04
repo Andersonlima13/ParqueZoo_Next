@@ -4,7 +4,7 @@ import "../Css/style.css"
 
 export default function Home() {
   return (
-    <div>
+    <div >
    
       <div className = "navbar">
      
@@ -14,8 +14,14 @@ export default function Home() {
           <li>Funcionarios</li>
           <li>Animais</li>
         </ul>
+
+        
          </div>
-         <div> Conheça ja!</div>
+
+         <div className="Home"> 
+         <h1 className="News">Conheça ja!</h1>
+         </div>
+         
 
 
      

@@ -1,16 +1,19 @@
 *{
  margin : 0;
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+ font-family: 'Ubuntu', sans-serif;
+ font-family: 'Ubuntu Mono', monospace;;
 }
 
 .navbar {
     background-color: rgb(20, 168, 86);
-    height : 10vh;
+    height : 40px;
     color : white;
 }
 
 .top {
     margin-right : 30px;
-    font-size : 30px;
+    font-size : 20px;
     list-style: none;
     display : flex;
     align-items: center;
@@ -18,6 +21,16 @@
 }
 
 .zoo {
-    font-size : 40px;
+    font-size : 30px;
     
+}
+
+.Home {
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    width: 100%;
+    height:100vh;
+    background-color : rgb(152, 94, 94) ;
+
 }
