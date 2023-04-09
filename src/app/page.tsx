@@ -9,7 +9,7 @@ export default function Home() {
         <ul className = "top">
          <li className = "zoo">zoologico</li>
          <li>Inicio</li>
-         <li>Funcionarios</li>
+         <li > <Link href="/dashboard">Funcionarios</Link></li>
          <li>Animais</li>
        </ul>
 
@@ -26,7 +26,7 @@ export default function Home() {
 
 
      
-      <Link href="/dashboard"> dash link</Link>
+     
     </div>
 
   )
