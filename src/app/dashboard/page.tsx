@@ -1,30 +1,28 @@
+import "../../Css/style.css"
+
 export default function Dashboard() {
   return(
+  <div>
     <div>
-    <div>
-     EXIBIR TODOS OS FUNCIONARIOS
-     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    </div>
-
-    <div>
-      <input placeholder="digite um nome a ser adicionado"></input><button> +</button>
-      <input placeholder="digite a idade "></input><button> +</button>
-      <input placeholder="digite o cargo "></input><button> +</button>
-      <input placeholder="digite"></input>
-      
-    </div>
-
-
-
-    </div>
+      <ul className= "top">
+        <li>Listar Funcionarios <button> +</button></li>
+         <li>Adicionar Funcionário <input placeholder="digite a idade "></input><button> +</button> </li>
+         <li>Remover Funcionario <input placeholder="Funcionario a ser removido "></input><button> +</button> </li>
+        
+      </ul>
+  
    
+   </div>
+  
+
+
+</div>
+ 
+
+ 
   )
+} 
    
 
-}
+
+  
