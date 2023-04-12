@@ -1,12 +1,27 @@
+import { useEffect } from "react"
 import "../../Css/style.css"
+import "../a"
+
+
+
+
 
 export default function Dashboard() {
+  useEffect(() => {
+    fetch('api/route')
+    .then(response => response.json())
+    .then(data => console.log(data))
+
+  }, [])
+
+
   return(
   <div>
     <div className= "Funcionario">
       <ul className="add">
       <li>Nome</li>
        <input></input>
+
          <li>Cpf</li>
           <input></input>
         <li>Cargo</li> 

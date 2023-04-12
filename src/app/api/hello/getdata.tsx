@@ -6,8 +6,8 @@ export default async function handler(req:any , res:any) {
     const dbconnection = await mysql.createConnection({
         host : "localHost",
         user: "root",
-        password: "root",
-        database: "caminho",
+        password: "12345",
+        database: "zoologico",
     });
 
     try {
@@ -17,7 +17,7 @@ export default async function handler(req:any , res:any) {
         res.status(500).json(err);
     }
 
-res.status(200).json({ name: "Jhon doe"});
+res.status(200).json({ name: "Testando BD"});
 
   }
   
