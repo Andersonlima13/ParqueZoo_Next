@@ -1,6 +1,8 @@
+"use client";
+
 import { useEffect } from "react"
 import "../../Css/style.css"
-import "../a"
+
 
 
 
