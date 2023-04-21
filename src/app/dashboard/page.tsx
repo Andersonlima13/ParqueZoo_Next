@@ -10,7 +10,7 @@ import "../../Css/style.css"
 
 export default function Dashboard() {
   useEffect(() => {
-    fetch('api/route')
+    fetch('api/hello')
     .then(response => response.json())
     .then(data => console.log(data))
 
