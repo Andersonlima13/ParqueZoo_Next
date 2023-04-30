@@ -60,7 +60,7 @@
     cursor:pointer;
 }
 
-.Funcionario { 
+.Funcionario{ 
     background-color: rgb(233, 240, 236);
     height : 30%;
     width: 100%;
@@ -75,5 +75,21 @@
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
+
+}
+
+.Container{
+    height: 90vh;
+    width:50%;
+    background-color:rgb(161, 203, 164);
+    border-radius: 15% 12%;
+    padding-top: 25px;
+    padding-left: 50px;
+    display:flex;
+    flex-direction:column;
+}
+.Form{
+    display:flex;
+    flex-direction:column;
 
 }

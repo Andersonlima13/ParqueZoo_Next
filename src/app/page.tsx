@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className="Home"> 
       <h1 className="News">PRINCIPAL SERVIÇO AQUI</h1>
-      <p className="Name"> Paragrafo destacado aqui ivamus scelerisque sit amet nulla vel porta. Fusce gravida euismod leo vitae facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent posuere</p>
+      <p className="Name"> Paragrafo destacado aqui ivamus scelerisque sit amet nulle gravi euismod leo vitae facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent posuere</p>
       <button className="button"> ver mais </button>
      </div>
    

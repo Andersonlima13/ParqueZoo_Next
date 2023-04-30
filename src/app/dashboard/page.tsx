@@ -29,7 +29,7 @@ export default function Dashboard() {
         <li>Cargo</li> 
         <input></input>
         <li>Email</li> <input></input>
-        <button >ADD</button>
+        <button>ADD</button>
       </ul>
     
    
