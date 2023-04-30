@@ -10,7 +10,7 @@ export default function Home() {
          <li className = "zoo">zoologico</li>
          <li>Inicio</li>
          <li > <Link href="/dashboard">Funcionarios</Link></li>
-         <li>Animais</li>
+         <li> <Link href="/Ingressos">Ingressos</Link></li>
        </ul>
 
      
