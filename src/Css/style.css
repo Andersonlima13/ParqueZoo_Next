@@ -85,11 +85,53 @@
     border-radius: 15% 12%;
     padding-top: 25px;
     padding-left: 50px;
-    display:flex;
-    flex-direction:column;
-}
-.Form{
-    display:flex;
-    flex-direction:column;
 
+    
+}
+
+.Form {
+    flex-direction: column;   
+    justify-content: space-between;
+}
+
+.Options{
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.Nome {
+    height:10vh;
+    width:100%;
+    font-size: 400px;
+    display:flex;
+    margin-top:20px;
+    
+}
+
+.Price{
+    height:10vh;
+    width:100%;
+    display:flex;
+    margin-top:20px;
+}
+
+.Permission{
+    margin-top:20px;
+}
+
+.Permission-area{
+    list-style: none;
+}
+.Cor-area{
+    margin:20px;
+    background-color: blue;
+    
+}
+
+.botao{
+    cursor:pointer;
+    font-size: 40px;
+    background-color: rgb(126, 202, 154);
 }
