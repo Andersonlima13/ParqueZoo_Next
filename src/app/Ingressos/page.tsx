@@ -1,7 +1,14 @@
+"use client";
 import "../../Css/style.css"
+import { useEffect } from "react"
 
 
 export default function Ingressos(){
+    useEffect(() => {
+        fetch('/api/hello')
+        .then(Response => console.log(Response))
+
+    })
     return (
         <div>
             <div className = "Funcionario">

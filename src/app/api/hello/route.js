@@ -10,6 +10,10 @@ export default function handler(req:NextApiRequest , res:NextApiResponse) {
 }
 */
 
-export async function GET(request){
-  return new Response("api funcianod funcionandop ")
+export async function GET(Response){
+  return new Response({
+    data : [
+      {id : 1 , nome : "anderson ", idade : 19}
+    ]
+  })
 }
