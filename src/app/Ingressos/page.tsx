@@ -10,7 +10,7 @@ export default function Ingressos(){
 
     })
     return (
-        <div>
+        <div className="img-container">
             <div className = "Funcionario">
                 <ul className = "top">
                     <li className = "zoo">Zoologico</li>
@@ -33,13 +33,8 @@ export default function Ingressos(){
             <input type="radio"></input> 
              <span> opção 1</span>
         </div>
-
-            <div className="Nome">
-            <select id="select">
-                <option value="6th">NomeIncresso1</option>
-                <option value="7th">NomeIncresso2</option>
-            </select>
-            </div>
+        <input className="Nome" placeholder="Digite seu nome"></input>
+          
 
              <div className="Price">
             <select id="select">

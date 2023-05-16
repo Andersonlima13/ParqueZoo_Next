@@ -79,9 +79,10 @@
 }
 
 .Container{
+    color:white;
     height: 90vh;
     width:50%;
-    background-color:rgb(161, 203, 164);
+    background-color:rgb(29, 26, 29);
     border-radius: 15% 12%;
     padding-top: 25px;
     padding-left: 50px;
@@ -102,11 +103,12 @@
 }
 
 .Nome {
-    height:10vh;
-    width:100%;
-    font-size: 400px;
+    height:4vh;
+    width:50%;
+    font-size: 15px;
     display:flex;
     margin-top:20px;
+    border-radius:15px;
     
 }
 
@@ -134,4 +136,10 @@
     cursor:pointer;
     font-size: 40px;
     background-color: rgb(126, 202, 154);
+}
+
+
+.img-container{
+    background: linear-gradient(rgba(140, 215, 144, 0.7), 
+    rgba(155, 208, 161, 0.8)), url("https://media.istockphoto.com/id/1339395986/photo/pink-coupon-with-coins-3d-rendering.jpg?s=612x612&w=0&k=20&c=O_Fgk9jnrG2x4Q2eXsBgfPUchSYqopJfs1OlWniIa1Q=");
 }
