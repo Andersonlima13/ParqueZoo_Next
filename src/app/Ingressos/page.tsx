@@ -10,59 +10,60 @@ export default function Ingressos(){
 
     })
     return (
+        
         <div className="img-container">
-            <div className = "Funcionario">
-                <ul className = "top">
-                    <li className = "zoo">Zoologico</li>
-                    <li>Inicio</li>
-                    <li>Funcionários</li>
-                    <li>Ingressos</li>
-                </ul>  
-
-            </div>
-
-            <div className= "Container">
-                <h1>Tipo de Ingresso </h1>
-
-
-<nav className="Form">
-
-        <div className="Options">
-            <input type="radio"></input>  
-            <span> opção 1</span>
-            <input type="radio"></input> 
-             <span> opção 1</span>
+          <div className="Funcionario">
+            <ul className="top">
+              <li className="zoo">Zoologico</li>
+              <li>Inicio</li>
+              <li>Funcionários</li>
+              <li>Ingressos</li>
+            </ul>
         </div>
+      
+          <div className="Container">
+            <div className="Top">
+                <h1>Tipo de Ingresso </h1>
+                <div className="Options">
+                <input type="radio"></input>
+                <span> opção 1</span>
+                <input type="radio"></input>
+                <span> opção 1</span>
+              </div>
+            </div>
+    <div className="section">
+
+        <div className="Elements">
+    <div className="Input">
         <input className="Nome" placeholder="Digite seu nome"></input>
-          
+        <div className="Price"></div>
+                <h1> VALOR : 00,00 R$</h1>
 
-             <div className="Price">
-            <select id="select">
-                <option value="6th">NomeIncresso1</option>
-                <option value="7th">NomeIncresso2</option>
-            </select>
-            </div>
-        <div className="Permission">
-        <ul className="Permission-area">
-            <li>Area permitida</li>
-            <li>Area permitida</li>
-            <li>Area permitida</li>
-            <li>Area permitida</li>
-        </ul>
-    </div>
+              </div>
+               <button className="botao">Comprar!</button>
 
-    <div className="Cor-area">
-        <h1>AREA DE COR AZUL!</h1>
-    </div>
-
-    <button className="botao">Comprar!</button>
-            
-
-          
-            </nav>
+        </div>
+        <div className="Cor-area">
+                <h1>INGRESSO TIPO : AZUL</h1>
                 
+                  <ul className="Permission-area">
+                    <li>Area permitida</li>
+                    <li>Area permitida</li>
+                    <li>Area permitida</li>
+                    <li>Area permitida</li>
+                  </ul>
+             
             </div>
 
+
+
+        </div>
+            
+      
+      
+    
+          </div>
+      
         </div>
     )
 }

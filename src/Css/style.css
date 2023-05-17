@@ -1,145 +1,181 @@
-*{
-    margin : 0;
+* {
+    margin: 0;
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
     font-family: 'Ubuntu', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;;
-   }
-   
-   .navbar {
-       background-color: rgb(233, 240, 236);
-       height : 40px;
-       color : rgb(0, 0, 0);
-       cursor : pointer;
-   }
-   
-   .top {
-       margin-right : 30px;
-       font-size : 18px;
-       list-style: none;
-       display : flex;
-       align-items: center;
-       justify-content: space-between;
-       font-weight: bold;
-   }
-   
-   .zoo {
-        padding-left: 10px;
-       font-size : 30px;
-       font-weight: bold;
-       
-   }
-   
-   .Home {
-       padding-left: 10%; 
-       padding-top: 15%;  
-       display:flex;
-       flex-direction: column;
-       width: 100%;
-       height:100vh;
-       background-color : rgb(187, 223, 170) ;
-   
-   }
-
-
-.News {
-    font-size: 60px;
-}
-
-.Name{
+    font-family: 'Ubuntu Mono', monospace;
+    ;
+  }
+  
+  .navbar {
+    background-color: rgb(233, 240, 236);
+    height: 40px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .top {
+    margin-right: 30px;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-weight: bold;
-    
-}
-
-.button {
+  }
+  
+  .zoo {
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+  
+  }
+  
+  .Home {
+    padding-left: 10%;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(187, 223, 170);
+  
+  }
+  
+  
+  .News {
+    font-size: 60px;
+  }
+  
+  .Name {
+    font-weight: bold;
+  
+  }
+  
+  .button {
     width: 200px;
     height: 60px;
     margin-top: 35px;
     background-color: rgb(101, 180, 101);
     font-size: 30px;
-    color:white;
-    cursor:pointer;
-}
-
-.Funcionario{ 
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Funcionario {
     background-color: rgb(233, 240, 236);
-    height : 30%;
+    height: 30%;
     width: 100%;
-    color : rgb(0, 0, 0)
-}  
-
-.add {
-    margin-right : 30px;
-    font-size : 28px;
+    color: rgb(0, 0, 0)
+  }
+  
+  .add {
+    margin-right: 30px;
+    font-size: 28px;
     list-style: none;
-    display : flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-
-}
-
-.Container{
-    color:white;
+  
+  }
+  
+  .Container {
+    color: #181616;
     height: 90vh;
-    width:50%;
-    background-color:rgb(29, 26, 29);
-    border-radius: 15% 12%;
-    padding-top: 25px;
-    padding-left: 50px;
-
-    
-}
-
-.Form {
-    flex-direction: column;   
+    width: 50%;
+    border: 10px solid;
+    background-color: transparent;
+    border-radius: 5% 5%;
+   
+  
+  
+  }
+  
+  .Form {
+    background:red;
+    flex-direction: column;
     justify-content: space-between;
-}
-
-.Options{
-    width:50%;
-    display:flex;
-    justify-content:space-between;
-    
-}
-
-.Nome {
-    height:4vh;
-    width:50%;
+  }
+  
+  .Options {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .Nome {
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    height: 4vh;
+    width: 51%;
     font-size: 15px;
-    display:flex;
-    margin-top:20px;
-    border-radius:15px;
-    
-}
-
-.Price{
-    height:10vh;
-    width:100%;
-    display:flex;
-    margin-top:20px;
-}
-
-.Permission{
-    margin-top:20px;
-}
-
-.Permission-area{
+    display: flex;
+   
+    border-radius: 15px;
+  
+  }
+  
+  .Price {
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px 4px #a6969a;
+    align-items: center;
+    justify-content: center;
+    background-color: #615151;
+    height: 10vh;
+    width: 51%;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .Permission {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .Permission-area {
+  
     list-style: none;
-}
-.Cor-area{
-    margin:20px;
+  }
+  
+  .Cor-area {
+    height: 81vh;
+    width: 90%;
     background-color: blue;
-    
-}
-
-.botao{
-    cursor:pointer;
+  
+  }
+  
+  .botao {
+    margin-top: 20px;
+    cursor: pointer;
     font-size: 40px;
     background-color: rgb(126, 202, 154);
+  }
+  
+  
+  .img-container {
+    background: linear-gradient(rgba(140, 215, 144, 0.7),
+        rgba(155, 208, 161, 0.8)), url("https://media.istockphoto.com/id/1339395986/photo/pink-coupon-with-coins-3d-rendering.jpg?s=612x612&w=0&k=20&c=O_Fgk9jnrG2x4Q2eXsBgfPUchSYqopJfs1OlWniIa1Q=");
+  }
+
+
+.Top {
+    border-radius: 15px 12px;
+    width:100%;
+    background:white;
 }
 
+.Elements{
+    height: 81vh;
+    width: 100%;
+    flex-direction:column;
+    display:flex;
+    background : red;
+}
 
-.img-container{
-    background: linear-gradient(rgba(140, 215, 144, 0.7), 
-    rgba(155, 208, 161, 0.8)), url("https://media.istockphoto.com/id/1339395986/photo/pink-coupon-with-coins-3d-rendering.jpg?s=612x612&w=0&k=20&c=O_Fgk9jnrG2x4Q2eXsBgfPUchSYqopJfs1OlWniIa1Q=");
+.section {
+    width:100%;
+    height: 81vh;
+    display:flex;
 }
