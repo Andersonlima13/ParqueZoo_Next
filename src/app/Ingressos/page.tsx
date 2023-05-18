@@ -23,24 +23,26 @@ export default function Ingressos(){
       
           <div className="Container">
             <div className="Top">
-                <h1>Tipo de Ingresso </h1>
+                <h1>RESERVAR INGRESSO</h1>
                 <div className="Options">
                 <input type="radio"></input>
-                <span> opção 1</span>
+                <span> VISITANTE</span>
                 <input type="radio"></input>
-                <span> opção 1</span>
+                <span> PESQUISADOR</span>
               </div>
             </div>
     <div className="section">
 
-        <div className="Elements">
+  <div className="Elements">
     <div className="Input">
         <input className="Nome" placeholder="Digite seu nome"></input>
-        <div className="Price"></div>
-                <h1> VALOR : 00,00 R$</h1>
-
-              </div>
-               <button className="botao">Comprar!</button>
+        <input className="Nome" placeholder="Digite seu e-mail"></input>
+      </div>
+      <div className="Price">
+      <h1> VALOR : 00,00 R$</h1>
+      </div>
+       
+      <button className="botao">RESERVAR</button>
 
         </div>
         <div className="Cor-area">
