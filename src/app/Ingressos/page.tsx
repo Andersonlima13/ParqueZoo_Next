@@ -1,6 +1,8 @@
 "use client";
 import "../../Css/style.css"
 import { useEffect } from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Ingressos(){
@@ -35,7 +37,7 @@ export default function Ingressos(){
 
   <div className="Elements">
     <div className="Input">
-        <input className="Nome" placeholder="Digite seu nome"></input>
+        <input className="Nome" placeholder="Digite seu nome"></input> <FontAwesomeIcon icon={faUser} />
         <input className="Nome" placeholder="Digite seu e-mail"></input>
       </div>
       <div className="Price">
@@ -43,6 +45,8 @@ export default function Ingressos(){
       </div>
        
       <button className="botao">RESERVAR</button>
+      <p style={{marginTop : "20px"}}> <b>Confio minhas informações aos autores do conteudo</b> <input type="checkbox"></input></p> 
+      
 
         </div>
         <div className="Cor-area">
