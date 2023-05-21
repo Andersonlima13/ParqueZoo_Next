@@ -2,7 +2,7 @@
 import "../../Css/style.css"
 import { useEffect } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faUser , faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Ingressos(){
@@ -37,8 +37,9 @@ export default function Ingressos(){
 
   <div className="Elements">
     <div className="Input">
-        <input className="Nome" placeholder="Digite seu nome"></input> <FontAwesomeIcon icon={faUser} />
+        <input className="Nome" placeholder="Digite seu nome"></input> 
         <input className="Nome" placeholder="Digite seu e-mail"></input>
+        
       </div>
       <div className="Price">
       <h1> VALOR : 00,00 R$</h1>
@@ -50,14 +51,15 @@ export default function Ingressos(){
 
         </div>
         <div className="Cor-area">
-                <h1>INGRESSO TIPO : AZUL</h1>
-                
+                <h1>INGRESSO DO TIPO: AZUL</h1>
+                <div className="area">
                   <ul className="Permission-area">
                     <li>Area permitida</li>
                     <li>Area permitida</li>
                     <li>Area permitida</li>
                     <li>Area permitida</li>
                   </ul>
+                  </div>
              
             </div>
 

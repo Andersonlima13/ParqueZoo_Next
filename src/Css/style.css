@@ -139,6 +139,7 @@
   }
   
   .Cor-area {
+    background-color: #278a39;
     height: 81vh;
     width: 90%;
   
@@ -202,4 +203,12 @@
   justify-content:space-between;
   height : 12vh;
   margin-top : 40px;
+}
+
+.area{
+  margin-top:20px;
+  padding-top:20px;
+  align-items: center;
+  display:flex;
+  background:black;
 }
