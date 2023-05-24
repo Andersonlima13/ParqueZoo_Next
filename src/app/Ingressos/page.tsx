@@ -27,10 +27,13 @@ export default function Ingressos(){
             <div className="Top">
                 <h1>RESERVAR INGRESSO</h1>
                 <div className="Options">
-                <input type="radio"></input>
-                <span> VISITANTE</span>
-                <input type="radio"></input>
-                <span> PESQUISADOR</span>
+                <input type="radio" id="green" name="ticket_type" value="VERDE"/>
+                <label>TIPO A</label>
+                <input type="radio" id="green" name="ticket_type" value="VERDE"/>
+                <label>TIPO B</label>
+              
+                
+          
               </div>
             </div>
     <div className="section">
