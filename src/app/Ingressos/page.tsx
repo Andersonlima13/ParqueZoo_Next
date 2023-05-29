@@ -8,7 +8,7 @@ import { faUser , faEnvelope} from '@fortawesome/free-solid-svg-icons'
 export default function Ingressos(){
     useEffect(() => {
         fetch('/api/hello')
-        .then(Response => console.log(Response))
+        .then(response => response.json()).then(data => console.log(data))
 
     })
     return (
